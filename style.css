@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  user-select: none;
+  background-color: #000;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #333;
+  background-color: #2e3d50;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px 10px 0 0 !important;
+  -webkit-border-radius: 10px 10px 0 0 !important;
+  -moz-border-radius: 10px 10px 0 0 !important;
+  -ms-border-radius: 10px 10px 0 0 !important;
+  -o-border-radius: 10px 10px 0 0 !important;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+section img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  background-color: #2e3d50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.info1 {
+  background-color: #2e3d50;
+  background-color: #2e3d20;
+  background-color: #2e3d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.info2 {
+  background-color: #2e3d40;
+  background-color: #2e3d50;
+  background-color: #2e3d20;
+  background-color: #2e3d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.info3 {
+  background-color: #2e3d50;
+  background-color: #2e3d20;
+  background-color: #2e3d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.info4 {
+  background-color: #2e3d20;
+  background-color: #2e3d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.span {
+  background-color: #584b4b;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  margin: 50px auto;
+  width: 80%;
+  color: #eee;
+  background-color: #333;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+th {
+  background-color: #555;
+  border-bottom: 3px solid #eee;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: #444;
+  border-bottom: 1px solid #555;
+}
+
+tr:hover td {
+  background-color: #555;
+  background-color: #2e3d50;
+}
+
+caption {
+  font-size: 24px;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  direction: rtl;
+  text-align: right;
+}
+
+td,
+th {
+  padding: 8px;
+  /* text-align: left; */
+  border-bottom: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Make table cells stack vertically */
+  td,
+  th {
+    display: block;
+  }
+
+  /* Add some space between table cells */
+  td:not(:last-child),
+  th:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+footer {
+  margin: 10px;
+  border-radius: 0 0 10px 10px !important;
+  -webkit-border-radius: 0 0 10px 10px !important;
+  -moz-border-radius: 0 0 10px 10px !important;
+  -ms-border-radius: 0 0 10px 10px !important;
+  -o-border-radius: 0 0 10px 10px !important;
+}

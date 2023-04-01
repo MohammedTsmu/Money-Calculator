@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en" dir="rtl">
+  <head>
+    <title>Stocks Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="style.css" />
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+      <header>
+        <h1>حاسبة الأرث</h1>
+        <p>حساب الأرث لخمسة أشخاص مع أستقطاع الفواتير والأقساط</p>
+      </header>
+      <div class="info1">
+        <p>المبلغ الكلي: <span class="span" id="amount"></span></p>
+        <p>عدد الأسهم: <span class="span" id="totalStocksTitle"></span></p>
+        <p>سعر السهم: <span class="span" id="stockValueTitle"></span></p>
+      </div>
+      <div class="info2">
+        الفواتير:
+        <p>الفواتير مع الصبغ والنقليات: <span class="span" id="billsWith"></span></p>
+        <p>الفواتير بدون الصبغ والنقليات: <span class="span" id="billsWithout"></span></p>
+        <p>الفواتير لشخص واحد مع الصبغ والنقليات: <span class="span" id="billsForEachPersonWith"></span></p>
+        <p>الفواتير لشخص واحد بدون الصبغ والنقليات: <span class="span" id="billsForEachPersonWithout"></span></p>
+        المبلغ:
+        <p>مجموع المبلغ لكل الأشخاص: <span class="span" id="collectedAmount1"></span></p>
+        <p>مجموع المبلغ لكل الأشخاص مع أستقطاع كل الفواتير: <span class="span" id="collectedAmount2"></span></p>
+        <p>مجموع المبلغ لكل الأشخاص مع أستقطاع الفواتير بدون الصبغ والنقليات: <span class="span" id="collectedAmount3"></span></p>
+      </div>
+      <div class="info3">
+        <p>الأقساط: <span class="span" id="installment"></span></p>
+        <p>الكهرباء (المبلغ المبدئي): <span class="span" id="electricity"></span></p>
+        <p>الماء: <span class="span" id="water"></span></p>
+        <p>الصبغ النقليات: <span class="span" id="paintCars"></span></p>
+      </div>
+      <div class="info4">
+        <table>
+          <thead>
+            <tr>
+              <th>أسم المستفيد</th>
+              <th>عدد الأسهم</th>
+              <th>المبلغ المستحق</th>
+              <!-- <th>المبلغ المستحق مع أقتطاع الفواتير مع صبغ ونقليات</th> -->
+              <th>المبلغ المستحق مع أقتطاع الفواتير (أقساط, كهرباء, ماء, صبغ ,نقليات)</th>
+              <!-- <th>المبلغ المستحق مع أقتطاع الفواتير بدون صبغ ونقليات</th> -->
+              <th>المبلغ المستحق مع أقتطاع الفواتير (أقساط, كهرباء, ماء)	</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>محمد قاسم ستار</td>
+              <td><input type="number" id="boy1-stocks" disabled value="34" /></td>
+              <td><span id="boy1-amount"></span></td>
+              <td><span id="boy1-FinalAmountWith"></span></td>
+              <td><span id="boy1-FinalAmountWithout"></span></td>
+            </tr>
+            <tr>
+              <td>علي ستار</td>
+              <td><input type="number" id="boy2-stocks" disabled value="34" /></td>
+              <td><span id="boy2-amount"></span></td>
+              <td><span id="boy2-FinalAmountWith"></span></td>
+              <td><span id="boy2-FinalAmountWithout"></span></td>
+            </tr>
+            <tr>
+              <td>رؤى ستار</td>
+              <td><input type="number" id="girl1-stocks" disabled value="17" /></td>
+              <td><span id="girl1-amount"></span></td>
+              <td><span id="girl1-FinalAmountWith"></span></td>
+              <td><span id="girl1-FinalAmountWithout"></span></td>
+            </tr>
+            <tr>
+              <td>زهراء ستار</td>
+              <td><input type="number" id="girl2-stocks" disabled value="17" /></td>
+              <td><span id="girl2-amount"></span></td>
+              <td><span id="girl2-FinalAmountWith"></span></td>
+              <td><span id="girl2-FinalAmountWithout"></span></td>
+            </tr>
+            <tr>
+              <td>سهام رحيم</td>
+              <td><input type="number" id="mother-stocks" disabled value="18" /></td>
+              <td><span id="mother-amount"></span></td>
+              <td><span id="mother-FinalAmountWith"></span></td>
+              <td><span id="mother-FinalAmountWithout"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <footer>
+        <p>&copy; جميع الحقوق محفوظة لمحمد قاسم</p>
+      </footer>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+</html>
